@@ -477,12 +477,27 @@ hr {
     background-color: #292929;
     width: 100vw !important;
     color: white !important;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 500;
 }
 
 .header>h2 {
     font-weight: 800 !important;
     font-size: xx-large !important;
+}
+
+.header>a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    /* ml */
+    /* font-weight: 800 !important; */
 }
 
 .heroBanner {
@@ -768,7 +783,7 @@ hr {
     z-index: 1;
     display: block;
     text-align: left;
-    padding: 20px;
+    padding: 35px 30px;
     border-radius: 5px;
     background-color: #ffffff;
     -webkit-box-shadow: 5px 7px 15px 2px rgba(82, 90, 101, 0.12);
@@ -793,7 +808,11 @@ hr {
     display: inline-block;
 }
 
-.single-services-item p {
+.single-services-item ul {
+    list-style-type: circle !important;
+}
+
+.single-services-item ul>li {
     font-size: 18px !important;
     color: black;
     font-weight: 400;
@@ -802,6 +821,7 @@ hr {
     will-change: transform;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: 3px;
 }
 
 .single-services-item:hover {
@@ -925,6 +945,7 @@ ul>li {
         width: 500px;
         background-color: #e32e0e;
     }
+
 }
 
 @media (min-width: 768px) {
@@ -965,6 +986,7 @@ ul>li {
 
     .header {
         padding-left: 150px;
+        padding-right: 150px;
     }
 
     .staticsList {
