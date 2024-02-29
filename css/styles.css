@@ -1065,3 +1065,12 @@ ul>li {
         width: 45%;
     }
 }
+
+a{
+    text-decoration: none !important;
+}
+
+.redirect{
+    color: black;
+    font-weight: 600;
+}
