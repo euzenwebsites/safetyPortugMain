@@ -27,6 +27,7 @@ body {
     line-height: 90px !important;
     width: 180px;
 }
+
 .heroSection1 {
     height: 120vh;
     width: 100vw;
@@ -519,9 +520,12 @@ hr {
 .header>a {
     font-size: larger;
     text-decoration: none;
-    color: white;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 8px;
+    background-color: yellow;
+    font-weight: 500 !important;
     /* ml */
-    /* font-weight: 800 !important; */
 }
 
 .heroBanner {
@@ -1090,11 +1094,11 @@ ul>li {
     }
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
-.redirect{
+.redirect {
     color: black;
     font-weight: 600;
 }
